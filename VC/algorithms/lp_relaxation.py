@@ -1,9 +1,11 @@
 # vc_lp_relaxation.py
 from __future__ import annotations
-from typing import Dict, Tuple, Set
-from graph import Graph
-from primal_dual_vc import is_vertex_cover
+from typing import Dict, Set, Tuple
+
 import pulp
+
+from algorithms.primal_dual import is_vertex_cover
+from src.graph import Graph
 
 
 def solve_vc_lp_relaxation(
@@ -102,8 +104,8 @@ def round_lp_solution_to_cover(
 
 if __name__ == "__main__":
     # Small demo: compare LP lower bound with exact ILP and a rounded cover
-    from primal_dual_vc import cover_cost
-    from vc_exact_solver import exact_vertex_cover_ilp, exact_cover_cost
+    from algorithms.primal_dual import cover_cost
+    from algorithms.exact_solver import exact_cover_cost, exact_vertex_cover_ilp
 
     # Build a small graph
     G = Graph(5)

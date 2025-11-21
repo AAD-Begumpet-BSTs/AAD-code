@@ -1,9 +1,10 @@
 # vc_exact_solver.py
 from __future__ import annotations
 from typing import Dict, Set
-from graph import Graph
 
 import pulp
+
+from src.graph import Graph
 
 
 def exact_vertex_cover_ilp(G: Graph, weights: Dict[int, float]) -> Set[int]:
@@ -68,7 +69,7 @@ def exact_cover_cost(G: Graph, cover: Set[int], weights: Dict[int, float]) -> fl
 
 
 if __name__ == "__main__":
-    from primal_dual_vc import is_vertex_cover, cover_cost
+    from algorithms.primal_dual import cover_cost, is_vertex_cover
 
     # Example graph: 4-cycle 0-1-2-3-0
     G = Graph(4)

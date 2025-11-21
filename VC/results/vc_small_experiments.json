@@ -1,0 +1,170 @@
+[
+  {
+    "n": 12,
+    "p": 0.3,
+    "seed": 100,
+    "num_edges": 15,
+    "exact_cost": 25.83879646025542,
+    "lp_value": 25.07868053087045,
+    "primal_dual_cost": 36.52256749301749,
+    "hybrid_cost": 25.83879646025542,
+    "primal_dual_ratio": 1.413477889699529,
+    "hybrid_ratio": 1.0,
+    "lp_lower_bound_ratio": 0.970582378689574,
+    "timings": {
+      "primal_dual": 1.6250000044237822e-05,
+      "exact": 0.022640375000264612,
+      "hybrid_total": 0.040623086013511056,
+      "lp_solve": 0.017906249999214197,
+      "rounding": 0.0001639620095374994,
+      "local_search": 0.02255287400475936
+    }
+  },
+  {
+    "n": 12,
+    "p": 0.3,
+    "seed": 101,
+    "num_edges": 22,
+    "exact_cost": 39.2470745211131,
+    "lp_value": 31.758590426197483,
+    "primal_dual_cost": 41.414953187499414,
+    "hybrid_cost": 39.2470745211131,
+    "primal_dual_ratio": 1.0552366945266225,
+    "hybrid_ratio": 1.0,
+    "lp_lower_bound_ratio": 0.8091963748562415,
+    "timings": {
+      "primal_dual": 2.4249999114545062e-05,
+      "exact": 0.023497875001339708,
+      "hybrid_total": 0.043965709997792146,
+      "lp_solve": 0.018429833000482176,
+      "rounding": 0.00018524999904911965,
+      "local_search": 0.02535062699826085
+    }
+  },
+  {
+    "n": 12,
+    "p": 0.3,
+    "seed": 102,
+    "num_edges": 12,
+    "exact_cost": 27.12304581932333,
+    "lp_value": 27.12304581932333,
+    "primal_dual_cost": 29.000311902194653,
+    "hybrid_cost": 27.12304581932333,
+    "primal_dual_ratio": 1.0692129525340366,
+    "hybrid_ratio": 1.0,
+    "lp_lower_bound_ratio": 1.0,
+    "timings": {
+      "primal_dual": 1.2999998943996616e-05,
+      "exact": 0.022634124999967753,
+      "hybrid_total": 0.0374237910091324,
+      "lp_solve": 0.017770333000953542,
+      "rounding": 0.00012954100748174824,
+      "local_search": 0.01952391700069711
+    }
+  },
+  {
+    "n": 18,
+    "p": 0.35,
+    "seed": 200,
+    "num_edges": 62,
+    "exact_cost": 50.310727395477656,
+    "lp_value": 43.02983311121635,
+    "primal_dual_cost": 70.11435673530957,
+    "hybrid_cost": 50.310727395477656,
+    "primal_dual_ratio": 1.3936263768194301,
+    "hybrid_ratio": 1.0,
+    "lp_lower_bound_ratio": 0.8552814745247397,
+    "timings": {
+      "primal_dual": 5.7458000810584053e-05,
+      "exact": 0.02687458299988066,
+      "hybrid_total": 0.06545104598808393,
+      "lp_solve": 0.01831937499991909,
+      "rounding": 0.00034220999259559903,
+      "local_search": 0.04678946099556924
+    }
+  },
+  {
+    "n": 18,
+    "p": 0.35,
+    "seed": 201,
+    "num_edges": 58,
+    "exact_cost": 63.12503449452307,
+    "lp_value": 51.357252517561015,
+    "primal_dual_cost": 94.40476691575998,
+    "hybrid_cost": 63.12503449452307,
+    "primal_dual_ratio": 1.4955202428277616,
+    "hybrid_ratio": 1.0,
+    "lp_lower_bound_ratio": 0.8135797933229951,
+    "timings": {
+      "primal_dual": 5.7875000493368134e-05,
+      "exact": 0.02564775000064401,
+      "hybrid_total": 0.06110224298754474,
+      "lp_solve": 0.0187812500007567,
+      "rounding": 0.00031745299384056125,
+      "local_search": 0.04200353999294748
+    }
+  },
+  {
+    "n": 18,
+    "p": 0.35,
+    "seed": 202,
+    "num_edges": 57,
+    "exact_cost": 49.74086996201746,
+    "lp_value": 44.01119914969593,
+    "primal_dual_cost": 55.23062011114952,
+    "hybrid_cost": 49.74086996201746,
+    "primal_dual_ratio": 1.1103669910342153,
+    "hybrid_ratio": 1.0,
+    "lp_lower_bound_ratio": 0.8848095978880797,
+    "timings": {
+      "primal_dual": 4.441700002644211e-05,
+      "exact": 0.025140332998489612,
+      "hybrid_total": 0.061149995992309414,
+      "lp_solve": 0.018863957999201375,
+      "rounding": 0.0003162059947499074,
+      "local_search": 0.04196983199835813
+    }
+  },
+  {
+    "n": 24,
+    "p": 0.4,
+    "seed": 300,
+    "num_edges": 117,
+    "exact_cost": 78.80405073038055,
+    "lp_value": 58.53826349251597,
+    "primal_dual_cost": 103.84494726720234,
+    "hybrid_cost": 78.80405073038055,
+    "primal_dual_ratio": 1.3177615402347334,
+    "hybrid_ratio": 1.0,
+    "lp_lower_bound_ratio": 0.7428331786242593,
+    "timings": {
+      "primal_dual": 0.00013004199900024105,
+      "exact": 0.08308891600063362,
+      "hybrid_total": 0.08769125598337268,
+      "lp_solve": 0.020165124999039108,
+      "rounding": 0.0005090009944979101,
+      "local_search": 0.06701712998983567
+    }
+  },
+  {
+    "n": 24,
+    "p": 0.4,
+    "seed": 301,
+    "num_edges": 118,
+    "exact_cost": 70.16317787842628,
+    "lp_value": 49.90709394472965,
+    "primal_dual_cost": 85.67710207592593,
+    "hybrid_cost": 70.16317787842628,
+    "primal_dual_ratio": 1.2211120514578324,
+    "hybrid_ratio": 1.0,
+    "lp_lower_bound_ratio": 0.7113003637207693,
+    "timings": {
+      "primal_dual": 0.00012720799895760138,
+      "exact": 0.06294058400089853,
+      "hybrid_total": 0.08741458301301464,
+      "lp_solve": 0.01949429199885344,
+      "rounding": 0.0005399980054789921,
+      "local_search": 0.0673802930086822
+    }
+  }
+]

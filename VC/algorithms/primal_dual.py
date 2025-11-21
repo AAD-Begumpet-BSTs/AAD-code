@@ -1,7 +1,7 @@
 # primal_dual_vc.py
 from __future__ import annotations
 from typing import Set, Dict, Tuple, List
-from graph import Graph
+from src.graph import Graph
 
 
 def primal_dual_vc_unweighted(G: Graph) -> Set[int]:
@@ -139,7 +139,7 @@ def cover_cost(cover: Set[int], weights: Dict[int, float]) -> float:
 
 if __name__ == "__main__":
     # Small sanity tests
-    from graph import Graph
+    from src.graph import Graph
 
     # Unweighted example: path on 4 vertices: 0-1-2-3
     G1 = Graph(4)

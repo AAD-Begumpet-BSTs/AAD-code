@@ -1,10 +1,10 @@
 # local_search_vc.py
 from __future__ import annotations
-from typing import Set, Dict, List, Tuple, Optional
-from random import sample, shuffle, randint
+from random import randint, sample
+from typing import Dict, List, Optional, Set, Tuple
 
-from graph import Graph
-from primal_dual_vc import is_vertex_cover, cover_cost
+from algorithms.primal_dual import cover_cost, is_vertex_cover
+from src.graph import Graph
 
 
 def local_search_vc_1exchange(
@@ -206,7 +206,7 @@ def local_search_vc_k_exchange(
 
 if __name__ == "__main__":
     # Small demo: see k-exchange improving a naive cover
-    from primal_dual_vc import primal_dual_vc_weighted
+    from algorithms.primal_dual import primal_dual_vc_weighted
 
     # Build a small graph
     G = Graph(5)
