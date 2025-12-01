@@ -21,9 +21,8 @@ import os
 # Add parent directory and algorithm directories to path
 parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, parent_dir)
-sys.path.insert(0, os.path.join(parent_dir, 'christofides'))
-sys.path.insert(0, os.path.join(parent_dir, '2-opt'))
-sys.path.insert(0, os.path.join(parent_dir, 'LP'))
+algorithms_dir = os.path.join(parent_dir, 'Algorithms')
+sys.path.insert(0, algorithms_dir)
 
 # Import algorithm classes
 from christofides import ChristofidesAlgorithm
