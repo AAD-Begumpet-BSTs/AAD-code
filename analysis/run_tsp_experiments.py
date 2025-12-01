@@ -17,9 +17,7 @@ from pathlib import Path
 # Add paths to TSP algorithm implementations
 current_dir = Path(__file__).parent
 tsp_dir = current_dir.parent / 'TSP'
-sys.path.insert(0, str(tsp_dir / 'christofides'))
-sys.path.insert(0, str(tsp_dir / '2-opt'))
-sys.path.insert(0, str(tsp_dir / 'LP'))
+sys.path.insert(0, str(tsp_dir / 'Algorithms'))
 sys.path.insert(0, str(current_dir.parent / 'pranshul' / 'src'))
 
 # Import TSP algorithms

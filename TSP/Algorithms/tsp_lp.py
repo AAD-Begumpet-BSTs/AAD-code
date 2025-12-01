@@ -197,7 +197,7 @@ class TSPLPRelaxation:
         # Build adjacency list from fractional solution
         adj = {i: [] for i in range(self.n)}
         for (i, j), val in solution.items():
-            if val > 0.5:  # Consider edge if x_ij > 0.5
+            if val > 1e-6:  # Consider edge if x_ij > 0.5
                 adj[i].append(j)
                 adj[j].append(i)
         

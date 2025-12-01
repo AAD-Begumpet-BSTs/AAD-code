@@ -1,20 +1,23 @@
 {
-  "total_instances": 21,
-  "successful": 21,
-  "failed": 0,
-  "failed_files": [],
+  "total_instances": 35,
+  "successful": 33,
+  "failed": 2,
+  "failed_files": [
+    "tsp_n20_s100.json",
+    "tsp_n8_s101.json"
+  ],
   "results_summary": {
     "small_n": {
-      "count": 0,
-      "avg_christofides_ratio": null,
-      "avg_hybrid_ratio": null,
-      "avg_christofides_time": null,
-      "avg_hybrid_time": null
+      "count": 33,
+      "avg_christofides_ratio": 1.1034187402528706,
+      "avg_hybrid_ratio": 1.029520324871045,
+      "avg_christofides_time": 0.002379605264374704,
+      "avg_hybrid_time": 0.0038884264050108013
     },
     "large_n": {
-      "count": 21,
-      "avg_christofides_time": 0.06630348023914155,
-      "avg_hybrid_time": 0.13497178895132883
+      "count": 0,
+      "avg_christofides_time": null,
+      "avg_hybrid_time": null
     }
   }
 }
