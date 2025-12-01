@@ -1,0 +1,89 @@
+{
+  "vertex_cover": {
+    "small_n_quality": {
+      "test": {
+        "test": "Wilcoxon Signed-Rank",
+        "statistic": 0.0,
+        "p_value": 0.0078125,
+        "significant": true,
+        "alpha": 0.05,
+        "n_samples": 8,
+        "interpretation": "Reject null hypothesis (p=0.0078)"
+      },
+      "effect_size": 2.1583041563624628,
+      "mean_pd": 1.2595393423917702,
+      "mean_hybrid": 1.0,
+      "improvement": 20.605894048448267
+    },
+    "small_n_runtime": {
+      "test": {
+        "test": "Wilcoxon Signed-Rank",
+        "statistic": 0.0,
+        "p_value": 0.0078125,
+        "significant": true,
+        "alpha": 0.05,
+        "n_samples": 8,
+        "interpretation": "Reject null hypothesis (p=0.0078)"
+      },
+      "effect_size": -2.852503448420704,
+      "mean_pd": 6.342699634842575e-05,
+      "mean_hybrid": 0.10256886966817547
+    },
+    "large_n_quality": {
+      "test": {
+        "test": "Wilcoxon Signed-Rank",
+        "statistic": 0.0,
+        "p_value": 0.0078125,
+        "significant": true,
+        "alpha": 0.05,
+        "n_samples": 8,
+        "interpretation": "Reject null hypothesis (p=0.0078)"
+      },
+      "effect_size": 3.2295769542475847,
+      "mean_pd": 1.8691729467590226,
+      "mean_hybrid": 1.5740032649942894,
+      "improvement": 15.791459119742276
+    }
+  },
+  "tsp": {
+    "christofides_quality": {
+      "mean_ratio": 1.101468453598893,
+      "std_ratio": 0.17788068147276473,
+      "min_ratio": 0.9999999999999998,
+      "max_ratio": 2.006442007245087,
+      "optimal_count": 12,
+      "total_count": 80
+    },
+    "hybrid_quality": {
+      "mean_ratio": 1.0549544241963664,
+      "optimal_count": 33
+    },
+    "chris_vs_hybrid": {
+      "test": {
+        "test": "Wilcoxon Signed-Rank",
+        "statistic": 0.0,
+        "p_value": 1.629555794311934e-11,
+        "significant": true,
+        "alpha": 0.05,
+        "n_samples": 80,
+        "interpretation": "Reject null hypothesis (p=0.0000)"
+      },
+      "effect_size": 0.2726066635521261
+    }
+  },
+  "set_cover": {
+    "greedy_vs_hybrid": {
+      "test": {
+        "test": "Wilcoxon Signed-Rank",
+        "statistic": 0.0,
+        "p_value": 0.0078125,
+        "significant": true,
+        "alpha": 0.05,
+        "n_samples": 10,
+        "interpretation": "Reject null hypothesis (p=0.0078)"
+      },
+      "effect_size": 1.6837148843162872,
+      "improvement": 8.18799446490829
+    }
+  }
+}
