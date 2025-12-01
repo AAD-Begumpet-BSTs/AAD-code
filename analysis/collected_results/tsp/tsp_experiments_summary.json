@@ -1,0 +1,20 @@
+{
+  "total_instances": 21,
+  "successful": 21,
+  "failed": 0,
+  "failed_files": [],
+  "results_summary": {
+    "small_n": {
+      "count": 0,
+      "avg_christofides_ratio": null,
+      "avg_hybrid_ratio": null,
+      "avg_christofides_time": null,
+      "avg_hybrid_time": null
+    },
+    "large_n": {
+      "count": 21,
+      "avg_christofides_time": 0.06630348023914155,
+      "avg_hybrid_time": 0.13497178895132883
+    }
+  }
+}
