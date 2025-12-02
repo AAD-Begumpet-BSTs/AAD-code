@@ -43,8 +43,9 @@ analysis/
 │   └── sc/                     # SC instances (JSON)
 │
 └── collected_results/           # Results and plots
-    ├── small_n/                # Small instance results
-    ├── large_n/                # Large instance results
+    ├── tsp/                    # TSP results and plots
+    ├── vc/                     # VC results and plots
+    ├── sc/                     # SC results and plots
     └── *.png                   # Generated plots
 ```
 
@@ -320,7 +321,7 @@ print(f"Approximation ratio: {result.hybrid_cost / result.lp_value}")
 ### Using Exact Solvers (Pranshul's work)
 
 ```python
-# From pranshul/src/algorithms/exact_solvers.py
+# From exact_solver/src/algorithms/exact_solvers.py
 from src.algorithms.exact_solvers import VCExact
 
 graph, weights = generate_random_graph_vc(20, p=0.3, seed=42)
